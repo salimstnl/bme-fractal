@@ -1,4 +1,4 @@
-dragon = np.array([
+dbase = np.array([
     [0, 1], 
     [0, 0]
     ])
