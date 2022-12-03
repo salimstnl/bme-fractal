@@ -16,9 +16,9 @@ Some recommended prerequisites include:
 
 ## Usage
 
-This Jupyter notebook is written alternatingly between HTML texts with MathJax typesetting (called **markdown cells**) and Python lines for examples and visualisations (called **code cells**). 
+This Jupyter notebook is written alternatingly between HTML texts with MathJax typesetting (called **markdown cells**) and Python lines for examples and visualisations (called **code cells**). Note that the explainer is made to be compatible with Colaboratory by Google, hence it is recommended to use this platform in order to get the program runs smoothly.
 
-The markdown cells can be read solely as lecture note without understanding the contents of the code cells which is used for visualisation purpose. However, having some programming background has an upperhand, namely one can tweak the parameters in some indicated code lines (those with comments) to play around the pictures as experiment and it can help with the understanding.
+The markdown cells can be read solely as lecture note without understanding the contents of the code cells which is used for visualisation purpose. However, having some programming background has an upperhand, namely one can tweak the parameters in some indicated code lines (those with comments) to play around the pictures as experiment and it can help with the better understanding.
 
 ## Help
 
