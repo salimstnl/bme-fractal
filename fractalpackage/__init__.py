@@ -7,3 +7,6 @@ import copy
 import math
 
 plt.style.use('default')
+
+def cipan():
+  print("Hello world")
