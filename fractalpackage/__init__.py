@@ -8,5 +8,15 @@ import math
 
 plt.style.use('default')
 
-def cipan():
-  print("Hello world")
+
+class Fractal:
+  
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        
+    def iterate(self):
+        pass
+
+    def plot(self):
+        pass
