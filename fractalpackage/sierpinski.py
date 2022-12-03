@@ -1,4 +1,4 @@
-sierpinski = np.array([
+sbase = np.array([
     [0, 1/2, 1], 
     [0, math.sqrt(3)/2, 0]
     ])
