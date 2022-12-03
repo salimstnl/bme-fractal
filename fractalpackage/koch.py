@@ -1,4 +1,4 @@
-koch = np.array([
+kbase = np.array([
     [0, 1], 
     [0, 0]
     ])
