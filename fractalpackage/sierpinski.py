@@ -1,3 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
+
 sbase = np.array([
     [0, 1/2, 1], 
     [0, math.sqrt(3)/2, 0]
