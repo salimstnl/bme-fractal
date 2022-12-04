@@ -59,3 +59,68 @@ def splot(base, n=4):
             plt.fill(x[i:i+3], y[i:i+3], "indigo")
             
     plt.show()
+
+    
+"""The rest of the code covers the introductory part.
+"""
+
+
+def step1(base):
+    fractal = sierpinski(base, 0)
+    x = fractal[0]
+    y = fractal[1]
+    
+    plt.figure(figsize=[2.4, 2.4])
+    plt.xticks([])
+    plt.yticks([])
+    for i in range(0,len(x), 3):
+        plt.fill(x[i:i+3], y[i:i+3], "indigo")
+            
+    plt.show()
+
+def step2(base):
+    fractal = sierpinski(base, 1)
+    x = fractal[0]
+    y = fractal[1]
+    
+    plt.figure(figsize=[7.2, 2.4])
+    
+
+    n = 0
+    for i in range(0,len(x), 3):
+        n += 1
+        plt.subplot(1, 3, n)
+        plt.xticks([])
+        plt.yticks([])
+        plt.xlim(0, 1)
+        plt.ylim(0, 1)
+        plt.fill(x[i:i+3], y[i:i+3], "indigo")
+            
+    plt.show()
+
+def step3(base):
+    fractal = sierpinski(base, 1)
+    x = fractal[0]
+    y = fractal[1]
+    
+    plt.figure(figsize=[2.4, 2.4])
+    plt.xticks([])
+    plt.yticks([])
+    for i in range(0,len(x), 3):
+        plt.fill(x[i:i+3], y[i:i+3], "indigo")
+            
+    plt.show()
+
+
+def step4(base):
+    fractal = sierpinski(base, 2)
+    x = fractal[0]
+    y = fractal[1]
+    
+    plt.figure(figsize=[2.4, 2.4])
+    plt.xticks([])
+    plt.yticks([])
+    for i in range(0,len(x), 3):
+        plt.fill(x[i:i+3], y[i:i+3], "indigo")
+            
+    plt.show()
