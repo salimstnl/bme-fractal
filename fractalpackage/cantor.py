@@ -1,3 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
+
 cbase = np.array([
     [0, 1], 
     [0, 0]
