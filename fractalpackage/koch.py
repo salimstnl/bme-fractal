@@ -49,7 +49,7 @@ def koch(base, n):
     return koch([x,y], n-1)
 
 
-def cplot(base, n=4):
+def kplot(base, n=4):
     plt.figure(figsize=[7.2, n*2.7])
     
     for k in range(n):
