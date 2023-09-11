@@ -24,4 +24,4 @@ The markdown cells can be read solely as lecture note without understanding the 
 
 The project is maintained by the administrator at the moment. Still, any ideas and suggestions are warmly welcomed through email in the description.
 
-© 2022 BerryStorm
+&copy; 2022 Stanley Salim
